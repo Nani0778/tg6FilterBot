@@ -42,7 +42,7 @@ async def save_group(bot, message):
             await bot.leave_chat(message.chat.id)
             return
         buttons = [[
-                    InlineKeyboardButton('📢 𝐔𝐏𝐃𝐀𝐓𝐄𝐒 📢', url=CHNL_LNK),
+                    InlineKeyboardButton('📢 𝐔𝐏𝐃𝐀𝐓𝐄𝐒 📢', url=GRP_LNK),
                     InlineKeyboardButton('💌 𝐇𝐄𝐋𝐏 💌', url=f"https://t.me/{temp.U_NAME}?start=help")
                   ]]
         reply_markup=InlineKeyboardMarkup(buttons)
@@ -155,7 +155,7 @@ async def re_enable_chat(bot, message):
 @Client.on_message(filters.command('stats') & filters.user(ADMINS) & filters.incoming)
 async def get_ststs(bot, message):
     buttons = [[
-            InlineKeyboardButton('𝐔𝐏𝐃𝐀𝐓𝐄𝐒', url=CHNL_LNK)
+            InlineKeyboardButton('𝐔𝐏𝐃𝐀𝐓𝐄𝐒', url=GRP_LNK)
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
     kdbotz = await message.reply('Fetching stats..')
