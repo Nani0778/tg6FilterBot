@@ -447,8 +447,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     protect_content=True if ident == "filep" else False,
                     reply_markup=InlineKeyboardMarkup(
                         [[
-                          InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
-                          InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                          InlineKeyboardButton('𝐒𝐔𝐏𝐏𝐎𝐑𝐓 𝐆𝐑𝐎𝐔𝐏', url=GRP_LNK),
+                          InlineKeyboardButton('𝐔𝐏𝐃𝐀𝐓𝐄𝐒 𝐂𝐇𝐀𝐍𝐍𝐄𝐋', url=CHNL_LNK)
                         ]]
                     )
                 )
@@ -505,8 +505,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                  InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
-                  InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                  InlineKeyboardButton('𝐒𝐔𝐏𝐏𝐎𝐑𝐓 𝐆𝐑𝐎𝐔𝐏', url=GRP_LNK),
+                  InlineKeyboardButton('𝐔𝐏𝐃𝐀𝐓𝐄𝐒 𝐂𝐇𝐀𝐍𝐍𝐄𝐋', url=CHNL_LNK)
                ]
                 ]
             )
@@ -544,15 +544,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "start":
         buttons = [[
-                    InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                    InlineKeyboardButton('🎬 𝐌𝐎𝐕𝐈𝐄𝐒 𝐆𝐑𝐎𝐔𝐏 🍿', url=f'https://t.me/moviessearch24')
                 ],[
-                    InlineKeyboardButton('🍁 Oᴡɴᴇʀ', callback_data="owner_info"),
-                    InlineKeyboardButton('🌿 Sᴜᴘᴘᴏʀᴛ', callback_data="kd_cnl")
+                    InlineKeyboardButton('⚡ 𝐎𝐖𝐍𝐄𝐑', callback_data="owner_info"),
+                    InlineKeyboardButton('💖 Sᴜᴘᴘᴏʀᴛ', callback_data="kd_cnl")
                 ],[
-                    InlineKeyboardButton('❗ Hᴇʟᴘ', callback_data='help'),
-                    InlineKeyboardButton('🕵️ Aʙᴏᴜᴛ', callback_data='about'),
+                    InlineKeyboardButton('💌 𝐇𝐄𝐋𝐏 💌', callback_data='help'),
+                    InlineKeyboardButton('🌟 𝐀𝐁𝐎𝐔𝐓 🌟', callback_data='about'),
                 ],[
-                    InlineKeyboardButton('🔒 Cʟᴏsᴇ Mᴇɴᴜ', callback_data='close_data')
+                    InlineKeyboardButton('🔒 𝐂𝐋𝐎𝐒𝐄 ⛔', callback_data='close_data')
                   ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -565,16 +565,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
     
     elif query.data == "help":
         buttons = [[
-            InlineKeyboardButton('Mᴀɴᴜᴀʟ FIʟᴛᴇʀ', callback_data='manuelfilter'),
-            InlineKeyboardButton('Aᴜᴛᴏ FIʟᴛᴇʀ', callback_data='autofilter')
+            InlineKeyboardButton('𝐌𝐀𝐍𝐔𝐀𝐋 𝐅𝐈𝐋𝐓𝐄𝐑', callback_data='manuelfilter'),
+            InlineKeyboardButton('𝐀𝐔𝐓𝐎 𝐅𝐈𝐋𝐓𝐄𝐑', callback_data='autofilter')
         ], [
-            InlineKeyboardButton('Cᴏɴɴᴇᴄᴛɪᴏɴ', callback_data='coct'),
-            InlineKeyboardButton('Fɪʟᴇ Sᴛᴏʀᴇ', callback_data='kd_filstr')
+            InlineKeyboardButton('𝐂𝐎𝐍𝐍𝐄𝐂𝐓𝐈𝐎𝐍🔗', callback_data='coct'),
+            InlineKeyboardButton('𝐅𝐈𝐋𝐄 𝐒𝐓𝐎𝐑𝐄🗃️', callback_data='kd_filstr')
         ], [
-            InlineKeyboardButton('Iᴍᴅʙ', callback_data='kd_imdb'),
-            InlineKeyboardButton('Mɪsᴄ', callback_data='kd_misc')
+            InlineKeyboardButton('𝐈𝐌𝐃𝐁', callback_data='kd_imdb'),
+            InlineKeyboardButton('𝐌𝐈𝐒𝐂', callback_data='kd_misc')
         ], [
-            InlineKeyboardButton('Gᴏ Tᴏ Hᴏᴍᴇ', callback_data='start')
+            InlineKeyboardButton('🏠 𝐇𝐎𝐌𝐄 🏠', callback_data='start')
         ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -592,7 +592,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ],[
             InlineKeyboardButton('Lᴜᴄɪғᴇʀ Fɪʟᴇs Cʜᴀɴɴᴇʟ', url=FILE_CHANNEL_LINK)
         ],[
-            InlineKeyboardButton('Hᴏᴍᴇ', callback_data='start'),
+            InlineKeyboardButton('🏠 𝐇𝐎𝐌𝐄 🏠', callback_data='start'),
             InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close_data')
         ]]
         
