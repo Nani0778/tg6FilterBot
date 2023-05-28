@@ -1,13 +1,10 @@
 
 
 <a href="https://github.com/kdbotz/Lucifer/blob/master/LICENSE"> <img src="https://img.shields.io/badge/License- GPL 2.0 license -blueviolet?style=for-the-badge" alt="License" /> </a>
-<a href="https://www.python.org/"> <img src="https://img.shields.io/badge/Written%20in-Python-skyblue?style=for-the-badge&logo=python" alt="Python" /> </a>
-<a href="https://pypi.org/project/Pyrogram/"> <img src="https://img.shields.io/pypi/v/pyrogram?color=white&label=pyrogram&logo=python&logoColor=blue&style=for-the-badge" /></a>
-<a href="https://github.com/kdbotz/Lucifer"> <img src="https://img.shields.io/github/repo-size/kdbotz/Lucifer?color=skyblue&logo=github&logoColor=blue&style=for-the-badge" /></a>
-<a href="https://github.com/kdbotz/Lucifer/commits/kdbotz"> <img src="https://img.shields.io/github/last-commit/kdbotz/Lucifer?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
+
 
  ━━━━━━━━━━━━━━━━━━━━
-## ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs [ʟᴜᴄɪғᴇʀ](t.me/filter_lucifer_bot)
+
 
 <details>
 <summary><h3>
@@ -41,18 +38,9 @@ python3 bot.py
 </p>
 </details>
 
-### [ʟᴜᴄɪғᴇʀ ғᴇᴀᴛᴜʀᴇs](https://github.com/KDBotz/LUCIFER/wiki#features) 
-ʟɪsᴛ ᴏғ ғᴇᴀᴛᴜʀᴇs sᴜᴘᴘᴏʀᴛᴇᴅ ʙʏ ʙᴏᴛ
 
 
 ━━━━━━━━━━━━━━━━━━━━
-<h3 align="center">
-    ─「 ᴄʀᴇᴅɪᴛs 」─
-</h3>
 
-- <b>[ᴋᴜɴᴀʟ](https://github.com/KDBOTZ)  ➻  [sᴏᴍᴇᴛʜɪɴɢ](https://github.com/KDBOTZ/LUCIFER) </b>
-- <b>[ᴇᴠᴀᴍᴀʀɪᴀ](https://github.com/EVAMARIATG)  ➻  [ʙᴀsᴇ ᴄᴏᴅᴇ](https://github.com/EVAMARIATG/EVAMARIA) </b>
- 
-<b>ᴀɴᴅ ᴀʟʟ [ᴛʜᴇ ᴄᴏɴᴛʀɪʙᴜᴛᴏʀs](https://github.com/KDBotz/LUCIFER/graphs/contributors) ᴡʜᴏ ʜᴇʟᴩᴇᴅ ɪɴ ᴍᴀᴋɪɴɢ ʟᴜᴄɪғᴇʀ ᴜsᴇғᴜʟ & ᴩᴏᴡᴇʀғᴜʟ 🖤 </b>
 
-━━━━━━━━━━━━━━━━━━━━
+
