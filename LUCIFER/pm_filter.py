@@ -585,15 +585,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('Sᴛᴀᴛᴜs', callback_data='stats'),
-            InlineKeyboardButton('Sᴏᴜʀᴄᴇ', callback_data='source')
+            InlineKeyboardButton('📊 𝐒𝐓𝐀𝐓𝐔𝐒 📊', callback_data='stats'),
+            InlineKeyboardButton('𝐀𝐃𝐌𝐈𝐍😎', url="https://t.me/SH24_AdminBot")
         ],[
-            InlineKeyboardButton('Rᴇᴘᴏʀᴛ Bᴜɢs & Fᴇᴇᴅʙᴀᴄᴋ', url=GRP_LNK)
+            InlineKeyboardButton('𝐖𝐞𝐛 𝐒𝐞𝐫𝐢𝐞𝐬 - 𝐒𝐮𝐧𝐫𝐢𝐬𝐞𝐬 𝐄𝐝𝐢𝐭𝐬 𝐎𝐟𝐟𝐢𝐜𝐚𝐥𝟔', url=GRP_LNK)
         ],[
-            InlineKeyboardButton('Lᴜᴄɪғᴇʀ Fɪʟᴇs Cʜᴀɴɴᴇʟ', url=FILE_CHANNEL_LINK)
+            InlineKeyboardButton('🎬 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 🎬', url=FILE_CHANNEL_LINK)
         ],[
             InlineKeyboardButton('🏠 𝐇𝐎𝐌𝐄 🏠', callback_data='start'),
-            InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close_data')
+            InlineKeyboardButton('𝐂𝐋𝐎𝐒𝐄 ⛔', callback_data='close_data')
         ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -753,13 +753,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
             )
     elif query.data == "kd_cnl":
             cnlbtn = [[
-                      InlineKeyboardButton('Lᴜᴄɪғᴇʀ Bᴏᴛ Lᴏɢs', url="https://t.me/LuciferBot_logs")
+                      InlineKeyboardButton('𝐓𝐆 𝐒𝐮𝐧𝐫𝐢𝐬𝐞𝐬𝟐𝟒 𝐅𝐢𝐥𝐞𝐬 𝐁𝐨𝐭', url="https://t.me/TG_Sunrises24_FilesBot")
                      ], [
-                      InlineKeyboardButton('Gʀᴏᴜᴘ', url='t.me/mh_request'),
-                      InlineKeyboardButton('Cʜᴀɴɴᴇʟ', url='t.me/movieshouse8')
+                      InlineKeyboardButton('𝐆𝐑𝐎𝐔𝐏', url='t.me/moviessearch24'),
+                      InlineKeyboardButton('🎬 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 🎬', url='t.me/sunriseseditsoffical6')
                      ], [
-                      InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ', url='t.me/kdbotz_support'),
-                      InlineKeyboardButton('Uᴘᴅᴀᴛᴇs', url='t.me/kd_botz')
+                      InlineKeyboardButton('𝐀𝐃𝐌𝐈𝐍 😎', url='t.me/SH24_AdminBot'),
+                      InlineKeyboardButton('📢 𝐔𝐏𝐃𝐀𝐓𝐄𝐒 📢', url='t.me/Sunrises_Bot_discussion_Group')
                      ], [
                       InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start")
                      ]]
