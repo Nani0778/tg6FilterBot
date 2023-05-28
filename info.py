@@ -47,7 +47,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/Sunrises_Bot_discussion_Group')
 CHNL_LNK = environ.get('CHNL_LNK', 't.me/sunriseseditsoffical6')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Sunrises_Bot_discussion_Group')
-MSG_ALRT = environ.get('MSG_ALRT', 'Share and Support Us')
+MSG_ALRT = environ.get('MSG_ALRT', 'Tʜᴀɢɢᴇᴅʜᴇ ʟᴇ❤️‍🔥')
 
 # Custom Chats
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', 0))
