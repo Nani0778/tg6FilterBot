@@ -588,9 +588,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('📊 𝐒𝐓𝐀𝐓𝐔𝐒 📊', callback_data='stats'),
             InlineKeyboardButton('𝐀𝐃𝐌𝐈𝐍😎', url="https://t.me/SH24_AdminBot")
         ],[
-            InlineKeyboardButton('𝐖𝐞𝐛 𝐒𝐞𝐫𝐢𝐞𝐬 - 𝐒𝐮𝐧𝐫𝐢𝐬𝐞𝐬 𝐄𝐝𝐢𝐭𝐬 𝐎𝐟𝐟𝐢𝐜𝐚𝐥𝟔', url=GRP_LNK)
+            InlineKeyboardButton('𝐖𝐞𝐛 𝐒𝐞𝐫𝐢𝐞𝐬 - 𝐒𝐮𝐧𝐫𝐢𝐬𝐞𝐬 𝐄𝐝𝐢𝐭𝐬 𝐎𝐟𝐟𝐢𝐜𝐚𝐥𝟔', url=FILE_CHANNEL_LINK)
         ],[
-            InlineKeyboardButton('🎬 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 🎬', url=FILE_CHANNEL_LINK)
+            InlineKeyboardButton('🎬 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 🎬', url=CHNL_LNK)
         ],[
             InlineKeyboardButton('🏠 𝐇𝐎𝐌𝐄 🏠', callback_data='start'),
             InlineKeyboardButton('𝐂𝐋𝐎𝐒𝐄 ⛔', callback_data='close_data')
