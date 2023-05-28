@@ -324,7 +324,7 @@ async def channel_info(bot, message):
 async def log_file(bot, message):
     """Send log file"""
     try:
-        await message.reply_document('tgsunrisesfiles6botlog.txt')
+        await message.reply_document('LuciferBotLog.txt')
     except Exception as e:
         await message.reply(str(e))
 
