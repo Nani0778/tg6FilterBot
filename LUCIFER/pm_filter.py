@@ -447,8 +447,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     protect_content=True if ident == "filep" else False,
                     reply_markup=InlineKeyboardMarkup(
                         [[
-                          InlineKeyboardButton('𝐒𝐔𝐏𝐏𝐎𝐑𝐓 𝐆𝐑𝐎𝐔𝐏', url=GRP_LNK),
-                          InlineKeyboardButton('𝐔𝐏𝐃𝐀𝐓𝐄𝐒 𝐂𝐇𝐀𝐍𝐍𝐄𝐋', url=CHNL_LNK)
+                          InlineKeyboardButton('𝐔𝐏𝐃𝐀𝐓𝐄𝐒', url=GRP_LNK),
+                          InlineKeyboardButton('𝐂𝐇𝐀𝐍𝐍𝐄𝐋', url=CHNL_LNK)
                         ]]
                     )
                 )
@@ -505,8 +505,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                  InlineKeyboardButton('𝐒𝐔𝐏𝐏𝐎𝐑𝐓 𝐆𝐑𝐎𝐔𝐏', url=GRP_LNK),
-                  InlineKeyboardButton('𝐔𝐏𝐃𝐀𝐓𝐄𝐒 𝐂𝐇𝐀𝐍𝐍𝐄𝐋', url=CHNL_LNK)
+                  InlineKeyboardButton('𝐔𝐏𝐃𝐀𝐓𝐄𝐒', url=GRP_LNK),
+                  InlineKeyboardButton('𝐂𝐇𝐀𝐍𝐍𝐄𝐋', url=CHNL_LNK)
                ]
                 ]
             )
