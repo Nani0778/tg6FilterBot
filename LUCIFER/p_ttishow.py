@@ -27,7 +27,7 @@ async def save_group(bot, message):
         if message.chat.id in temp.BANNED_CHATS:
             # Inspired from a boat of a banana tree
             buttons = [[
-                InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ', url=f'https://t.me/{SUPPORT_CHAT}')
+                InlineKeyboardButton('𝐒𝐔𝐏𝐏𝐎𝐑𝐓', url=f'https://t.me/{SUPPORT_CHAT}')
             ]]
             reply_markup=InlineKeyboardMarkup(buttons)
             k = await message.reply(
@@ -42,8 +42,8 @@ async def save_group(bot, message):
             await bot.leave_chat(message.chat.id)
             return
         buttons = [[
-                    InlineKeyboardButton('📣 Uᴘᴅᴀᴛᴇs', url=CHNL_LNK),
-                    InlineKeyboardButton('❓ Hᴇʟᴘ', url=f"https://t.me/{temp.U_NAME}?start=help")
+                    InlineKeyboardButton('📢 𝐔𝐏𝐃𝐀𝐓𝐄𝐒 📢', url=CHNL_LNK),
+                    InlineKeyboardButton('💌 𝐇𝐄𝐋𝐏 💌', url=f"https://t.me/{temp.U_NAME}?start=help")
                   ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -55,7 +55,7 @@ async def save_group(bot, message):
         if settings["welcome"]:
             for u in message.new_chat_members:
                 buttons = [[
-                InlineKeyboardButton("ʀᴇᴀᴅ ɢʀᴏᴜᴘ ʀᴜʟᴇs 📌", url="https://telegra.ph/How-to-get-movies--series-from-KD-Bot-05-17")
+                InlineKeyboardButton("ʀᴇᴀᴅ ɢʀᴏᴜᴘ ʀᴜʟᴇs 📌", url="https://t.me/Sunrises_Bot_discussion_Group/140")
             ]]
                 if (temp.MELCOW).get('welcome') is not None:
                     try:
@@ -63,7 +63,7 @@ async def save_group(bot, message):
                     except:
                         pass
                 temp.MELCOW['welcome'] = await message.reply_photo(
-                photo="https://telegra.ph/file/54fb5528e309ff263a7ec.jpg",
+                photo="https://graph.org/file/afab3b821f7de78b95cd3.jpg",
                 caption=f"<b>🔖 ʜᴇʟʟᴏ ᴍʏ ғʀɪᴇɴᴅ {u.mention},</b>\n<b>ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ {message.chat.title} !</b>\n\n<b>ʀᴇᴀᴅ ɢʀᴏᴜᴘ ʀᴜʟᴇs ᴛᴏ ᴋɴᴏᴡ ᴍᴏʀᴇ...</b>",
                 reply_markup=InlineKeyboardMarkup(buttons))
                 await asyncio.sleep(60)
@@ -80,7 +80,7 @@ async def leave_a_chat(bot, message):
         chat = chat
     try:
         buttons = [[
-            InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ', url=f'https://t.me/{SUPPORT_CHAT}')
+            InlineKeyboardButton('𝐒𝐔𝐏𝐏𝐎𝐑𝐓', url=f'https://t.me/{SUPPORT_CHAT}')
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await bot.send_message(
@@ -119,7 +119,7 @@ async def disable_chat(bot, message):
     await message.reply('Chat Successfully Disabled')
     try:
         buttons = [[
-            InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ', url=f'https://t.me/{SUPPORT_CHAT}')
+            InlineKeyboardButton('𝐒𝐔𝐏𝐏𝐎𝐑𝐓', url=f'https://t.me/{SUPPORT_CHAT}')
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await bot.send_message(
@@ -155,7 +155,7 @@ async def re_enable_chat(bot, message):
 @Client.on_message(filters.command('stats') & filters.user(ADMINS) & filters.incoming)
 async def get_ststs(bot, message):
     buttons = [[
-            InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇꜱ', url=CHNL_LNK)
+            InlineKeyboardButton('𝐔𝐏𝐃𝐀𝐓𝐄𝐒', url=CHNL_LNK)
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
     kdbotz = await message.reply('Fetching stats..')
