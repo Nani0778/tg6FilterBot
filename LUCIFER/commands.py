@@ -45,7 +45,7 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-                    InlineKeyboardButton('🎬 𝐌𝐎𝐕𝐈𝐄𝐒 𝐆𝐑𝐎𝐔𝐏 🍿', url=f'https://t.me/moviessearch24')
+                    InlineKeyboardButton('🔍 𝐒𝐄𝐀𝐑𝐂𝐇 🔍', switch_inline_query_current_chat=''),
                   ],[
                     InlineKeyboardButton('✨ 𝐎𝐖𝐍𝐄𝐑', callback_data="owner_info"),
                     InlineKeyboardButton('💖 𝐒𝐔𝐏𝐏𝐎𝐑𝐓', callback_data="kd_cnl")
@@ -95,7 +95,7 @@ async def start(client, message):
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-                    InlineKeyboardButton('🎬 𝐌𝐎𝐕𝐈𝐄𝐒 𝐆𝐑𝐎𝐔𝐏 🍿', url=f'https://t.me/moviessearch24')
+                    InlineKeyboardButton('🔍 𝐒𝐄𝐀𝐑𝐂𝐇 🔍', switch_inline_query_current_chat=''),
                   ],[
                     InlineKeyboardButton('✨ 𝐎𝐖𝐍𝐄𝐑', callback_data="owner_info"),
                     InlineKeyboardButton('💖 𝐒𝐔𝐏𝐏𝐎𝐑𝐓', callback_data="kd_cnl")
