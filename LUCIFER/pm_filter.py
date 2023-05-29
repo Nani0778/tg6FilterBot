@@ -544,7 +544,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "start":
         buttons = [[
-                    InlineKeyboardButton('🎬 𝐌𝐎𝐕𝐈𝐄𝐒 𝐆𝐑𝐎𝐔𝐏 🍿', url=f'https://t.me/moviessearch24')
+                    InlineKeyboardButton('🔍 𝐒𝐄𝐀𝐑𝐂𝐇 🔍', switch_inline_query_current_chat=''),
                 ],[
                     InlineKeyboardButton('✨ 𝐎𝐖𝐍𝐄𝐑', callback_data="owner_info"),
                     InlineKeyboardButton('💖 Sᴜᴘᴘᴏʀᴛ', callback_data="kd_cnl")
