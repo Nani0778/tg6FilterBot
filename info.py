@@ -23,7 +23,7 @@ PORT = environ.get("PORT", "8080")
 TIMEZONE = environ.get("TIMEZONE", "Asia/Kolkata")
 
 PICS = (environ.get('PICS', 'https://graph.org/file/51d3b41e34cf949b64832.jpg')).split()
-NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/46443096bc6895c74a716.jpg")
+NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/51d3b41e34cf949b64832.jpg")
 SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/b60d2facc538ad82ad22d.jpg")
 NEWGRP = environ.get("NEWGRP", "https://graph.org/file/51d3b41e34cf949b64832.jpg")
 
