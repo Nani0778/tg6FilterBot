@@ -109,7 +109,7 @@ async def next_page(bot, query):
                 [
                     InlineKeyboardButton(f'ɪɴꜰᴏ', 'reqinfo'),
                     InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
-                    InlineKeyboardButton(f'ꜱᴇʀɪᴇꜱ', 'sinfo')
+                    InlineKeyboardButton(f'ꜱᴇʀɪᴇꜱ', 'shinfo')
                 ]
             )
 
@@ -117,7 +117,7 @@ async def next_page(bot, query):
             btn.insert(0, 
                 [
                     InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
-                    InlineKeyboardButton(f'ꜱᴇʀɪᴇꜱ', 'sinfo'),
+                    InlineKeyboardButton(f'ꜱᴇʀɪᴇꜱ', 'shinfo'),
                     InlineKeyboardButton(f'ɪɴꜰᴏ', 'reqinfoo')
                 ]
             )
@@ -131,7 +131,7 @@ async def next_page(bot, query):
                 [
                     InlineKeyboardButton(f'ɪɴꜰᴏ', 'reqinfo'),
                     InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
-                    InlineKeyboardButton(f'ꜱᴇʀɪᴇꜱ', 'sinfo')
+                    InlineKeyboardButton(f'ꜱᴇʀɪᴇꜱ', 'shinfo')
                 ]
             )
 
@@ -139,7 +139,7 @@ async def next_page(bot, query):
             btn.insert(0, 
                 [
                     InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
-                    InlineKeyboardButton(f'ꜱᴇʀɪᴇꜱ', 'sinfo'),
+                    InlineKeyboardButton(f'ꜱᴇʀɪᴇꜱ', 'shinfo'),
                     InlineKeyboardButton(f'ɪɴꜰᴏ', 'reqinfoo')
                 ]
             )
