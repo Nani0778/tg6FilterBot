@@ -588,7 +588,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('📊 𝐒𝐓𝐀𝐓𝐔𝐒 📊', callback_data='stats'),
             InlineKeyboardButton('𝐀𝐃𝐌𝐈𝐍😎', url="https://t.me/SH24_AdminBot")
         ],[
-            InlineKeyboardButton('𝐖𝐞𝐛 𝐒𝐞𝐫𝐢𝐞𝐬 - 𝐒𝐮𝐧𝐫𝐢𝐬𝐞𝐬 𝐄𝐝𝐢𝐭𝐬 𝐎𝐟𝐟𝐢𝐜𝐚𝐥𝟔', url=FILE_CHANNEL_LINK)
+            InlineKeyboardButton('𝐎𝐓𝐓 𝐌𝐎𝐕𝐈𝐄𝐒 𝟐𝟒', url=FILE_CHANNEL_LINK)
         ],[
             InlineKeyboardButton('🎬 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 🎬', url=CHNL_LNK)
         ],[
@@ -753,13 +753,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
             )
     elif query.data == "kd_cnl":
             cnlbtn = [[
-                      InlineKeyboardButton('𝐓𝐆 𝐒𝐮𝐧𝐫𝐢𝐬𝐞𝐬𝟐𝟒 𝐅𝐢𝐥𝐞𝐬 𝐁𝐨𝐭', url="https://t.me/TG_Sunrises24_FilesBot")
+                      InlineKeyboardButton('𝐀𝐫𝐞𝐲 𝐄𝐧𝐭𝐫𝐚 𝐈𝐝𝐡𝐢 𝟐𝟒 𝐁𝐨𝐭', url="https://t.me/AreyEntraIdhi24Bot")
                      ], [
                       InlineKeyboardButton('𝐆𝐑𝐎𝐔𝐏', url='t.me/moviessearch24'),
                       InlineKeyboardButton('🎬 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 🎬', url='t.me/sunriseseditsoffical6')
                      ], [
                       InlineKeyboardButton('𝐀𝐃𝐌𝐈𝐍 😎', url='t.me/SH24_AdminBot'),
-                      InlineKeyboardButton('📢 𝐔𝐏𝐃𝐀𝐓𝐄𝐒 📢', url='t.me/Sunrises_Bot_discussion_Group')
+                      InlineKeyboardButton('📢 𝐔𝐏𝐃𝐀𝐓𝐄𝐒 📢', url='t.me/Sunrises24BotUpdates')
                      ], [
                       InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start")
                      ]]
