@@ -24,7 +24,7 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('🔍 𝐒𝐄𝐀𝐑𝐂𝐇 🔍', switch_inline_query_current_chat=''),
                   ],[
-                    InlineKeyboardButton('📢 𝐔𝐏𝐃𝐀𝐓𝐄𝐒 📢', url='https://t.me/Sunrises_Bot_discussion_Group'),
+                    InlineKeyboardButton('📢 𝐔𝐏𝐃𝐀𝐓𝐄𝐒 📢', url='https://t.me/Sunrises24BotUpdates'),
                     InlineKeyboardButton('🎬 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 🎬', url='https://t.me/sunriseseditsoffical6')
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
